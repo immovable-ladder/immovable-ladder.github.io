@@ -14,13 +14,25 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
+        div.background {
+            background: url(img/shutterstock_WC.jpg) repeat;}
+        
+        .success { 
+            padding: 20px;
+            background-color: white;
+        }
+        
         body { 
-            background-color: #b0c4de;
-            padding-top: 80px; }
+            padding-top: 50px;}
     </style>
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -62,8 +74,9 @@
     </nav>
 
     <!-- Page Content -->
+    <div class="background">
     <div class="container">
-
+        <div class="success">
         <div class="row">
 
             <!-- Blog Post Content Column -->
@@ -74,20 +87,10 @@
                 <!-- Title -->
                 <h1>Frequently Asked Questions</h1>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="www.awhere.com">aWhere</a>
-                </p>
-
                 <hr>
 
                 <!-- Date/Time -->
                 <p><span class="glyphicon glyphicon-time"></span> Updated on June 1, 2015</p>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img src="img/L_62E9.PNG" alt="Vista" height="300" width="900" />
 
                 <hr>
 
@@ -190,18 +193,12 @@
                     <h4>Check out other Hackathons</h4>
                     <div class="row">
                         <div class="col-lg-12">
-                            <ul class="fa-ul">
-                                <ul>
-                                <li><a href="http://ict4ag.org/en/agenda/hackathon-en.html">ICT4Ag - Kigali, Rwanda</a>
-                                </li>
-                                <li><a href="http://kampala.dbootcamp.org/">Data Bootcamp - Kampala, Uganda</a>
-                                </li>
-                                <li><a href="http://nigeria.dbootcamp.org/">Health Hackathon - Lagos, Nigeria</a>
-                                </li>
-                                <li><a href="http://hackathon.ccafs.cgiar.org/en/">CCAFS Hackathon - Lima, Peru</a>
-                                </li>
-                                </ul>
-                            </ul>
+                            <div class="list-group">
+                                <a class="list-group-item" href="http://ict4ag.org/en/agenda/hackathon-en.html"><i class="fa fa-external-link fa-fw"></i>&nbsp; ICT4Ag - Kigali, Rwanda</a>
+                                <a class="list-group-item" href="http://kampala.dbootcamp.org/"><i class="fa fa-external-link fa-fw"></i>&nbsp; Data Bootcamp - Kampala, Uganda</a>
+                                <a class="list-group-item" href="http://nigeria.dbootcamp.org/"><i class="fa fa-external-link fa-fw"></i>&nbsp; Health Hackathon - Lagos, Nigeria</a>
+                                <a class="list-group-item" href="http://hackathon.ccafs.cgiar.org/en/"><i class="fa fa-external-link fa-fw"></i>&nbsp; CCAFE Hackathon - Lima, Peru</a>
+                            </div>
                         </div>
                     </div>
                     <!-- /.row -->
@@ -214,7 +211,8 @@
                 </div>
 
             </div>
-
+            </div>
+        </div>
         </div>
         <!-- /.row -->
 
@@ -224,7 +222,9 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <div class="success">
+                    <p><center>Copyright &copy; aWhere, Inc.</center></p>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
