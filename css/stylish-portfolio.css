@@ -93,6 +93,7 @@ hr.small {
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    padding: 10px;
 }
 
 .sidebar-nav li a {
