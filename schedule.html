@@ -15,7 +15,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
         div.background {
-            background: url(img/shutterstock_WC.jpg) repeat;}
+            background: url(img/shutterstock_WC.jpg);
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
         
         .success { 
             padding: 20px;
