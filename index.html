@@ -212,38 +212,6 @@
                     <hr>
                     <h2 class="intro-text text-center">Contact us with questions!</h2>
                     <hr>
-                    <form role="form" method="post" action="contact.php">
-                        <div class="row">
-                            <div class="form-group col-lg-4">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-                                <?php echo "<p class='text-danger'>$errName</p>";?>
-                            </div>
-                            <div class="form-group col-lg-4">
-                                <label for="email">Email Address</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="name@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                                <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                            </div>
-                            <div class="form-group col-lg-4">
-                                <label for="org">Affiliation (if applicable)</label>
-                                <input type="tel" class="form-control" id="org" name="org" placeholder="aWhere">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="form-group col-lg-12">
-                                <label for="message">Tell us how you are interested in participating</label>
-                                <textarea class="form-control" rows="12" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                                <?php echo "<p class='text-danger'>$errMessage</p>";?>
-                            </div>
-                            <div class="form-group col-lg-12">
-                                <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                            </div>
-                        </div>
-                        <div class="form-group">
-						<div class="col-sm-10 col-sm-offset-2">
-							<?php echo $result; ?>	
-						</div>
-					</div>
-                    </form>
                 </div>
             </div>
         </div>
