@@ -198,7 +198,7 @@
 						<h5>SKILLS</h5>
 					</div>
 					<div class="col-lg-3 centered">
-						<canvas id="R" height="130" width="130"></canvas>
+						<canvas id="rstats" height="130" width="130"></canvas>
 						<p>R</p>
 						<br>
 						<script>
@@ -212,46 +212,9 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("rstats").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="excel" height="130" width="130"></canvas>
-						<p>Excel</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="InDesign" height="130" width="130"></canvas>
-						<p>InDesign</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					
 					<div class="col-lg-3 col-lg-offset-3 centered">
 						<canvas id="html" height="130" width="130"></canvas>
 						<p>HTML/CSS</p>
@@ -271,6 +234,43 @@
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
+						<canvas id="excel" height="130" width="130"></canvas>
+						<p>Excel</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("excel").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="indesign" height="130" width="130"></canvas>
+						<p>InDesign</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("indesign").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 centered">
 						<canvas id="spanish" height="130" width="130"></canvas>
 						<p>Spanish</p>
 						<br>
@@ -285,7 +285,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("spanish").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 					<div class="col-lg-3 centered">
@@ -303,7 +303,7 @@
 										color : "#ecf0f1"
 									}
 								];
-								var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+								var myDoughnut = new Chart(document.getElementById("arabic").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 
