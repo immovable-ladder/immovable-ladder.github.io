@@ -183,12 +183,12 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	color: white;
 } 
 
@@ -206,8 +206,8 @@ a:after {
 
 #skillswrap {
 	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	color: white;
 }
 
@@ -217,8 +217,8 @@ a:after {
 
 #footwrap {
 	background: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
 #footwrap p {
